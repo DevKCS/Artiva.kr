@@ -36,7 +36,7 @@ export class Artiva {
             step:step,
             title:title,
             desc:desc,
-            apikey:apikey
+            apikey:this.apikey
         })
         return result.data
     }
