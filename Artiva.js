@@ -6,9 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Artiva = void 0;
 const axios_1 = __importDefault(require("axios"));
 const ARTIVA_URL = `https://artiva.kr`;
-/**
- * Them main prodia class, this class should be viewed as the instance of an API key
- */
+
 class Artiva {
     constructor(apiKey) {
         this._apiKey = apiKey;
