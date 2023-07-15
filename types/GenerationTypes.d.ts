@@ -3,7 +3,7 @@ export interface CreateGenerationRequest {
     model: ArtivaModel;
     prompt: string;
     negative_prompt?: string;
-    steps: number;
+    step?: number;
     cfg_scale?: number;
     clip_skip?: boolean;
     seed?: number;
