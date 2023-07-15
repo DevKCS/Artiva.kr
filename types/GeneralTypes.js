@@ -49,10 +49,6 @@ var ArtivaModel;
     /**
      * @modelType safetensors
      */
-    ArtivaModel["DREAMLIKE_DIFFUSION_V2"] = "dreamlike-diffusion-2.0.safetensors [fdcf65e7]";
-    /**
-     * @modelType safetensors
-     */
     ArtivaModel["BRA_V5"] = "BraV5";
     /**
      * @modelType ckpt
