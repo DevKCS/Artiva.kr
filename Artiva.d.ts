@@ -1,8 +1,6 @@
 import { CreateGenerationRequest, GenerationResponse } from "./types/GenerationTypes";
 import { UpscaleResponse, UpscaleType } from "./types/ImageUpscaleTypes";
-/**
- * Them main prodia class, this class should be viewed as the instance of an API key
- */
+
 export declare class Artiva {
     private _apiKey;
     constructor(apiKey: string);
