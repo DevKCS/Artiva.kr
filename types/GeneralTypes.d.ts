@@ -21,7 +21,7 @@ export declare enum ArtivaModel {
     /**
      * @modelType ckpt
      */
-    MEINAMIX_V10 = "MeinaUnreal",
+    MEINAMIX_V10 = "MeinaMix",
     /**
      * @modelType ckpt
      */
