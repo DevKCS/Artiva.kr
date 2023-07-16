@@ -41,7 +41,7 @@ export declare enum ArtivaModel {
     /**
      * @modelType ckpt
      */
-    MEINA_UNREAL = "MeinaPastel",
+    MEINA_UNREAL = "MeinaUnreal",
     /**
      * @modelType safetensors
      */
