@@ -211,7 +211,11 @@
         /**
          * @modelType safetensors
          */
-        nijijourney: "NijiJourney"
+        nijijourney: "NijiJourney",
+        /**
+         * @modelType safetensors
+         */
+        sdxl: "SDXL"
     }
 
     /**

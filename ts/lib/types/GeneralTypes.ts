@@ -92,6 +92,11 @@ export enum ArtivaModel {
      * @modelType safetensors
      */
     NIJI_JOURNEY = "NijiJourney",
+
+    /**
+     * @modelType safetensors
+     */
+    SDXL = "SDXL",
 }
 
 /**
