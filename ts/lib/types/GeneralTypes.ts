@@ -1,115 +1,22 @@
-/**
- * A valid Artiva Model
- */
-export enum ArtivaModel {
-
-    /**
-     * @modelType ckpt
-     */
-    DARK_SUSHI_MIX = "DarkSushiMix",
-
-    /**
-     * @modelType ckpt
-     */
-    ANYTHING_V5 = "AnythingV5",
-
-    /**
-     * @modelType ckpt
-     */
-    SD_V21 = "StableDiffusionV2.1",
-
-    /**
-     * @modelType ckpt
-     */
-    MEINAMIX_V10 = "MeinaMixV10",
-
-    /**
-     * @modelType ckpt
-     */
-    PASTEL_DREAM = "PastelDream",
-
-    /**
-     * @modelType safetensors
-     */
-    GHOST_MIX_V2 = "GhostMixV2",
-
-    /**
-     * @modelType safetensors
-     */
-    OPENJOURNEY_V4 = "OpenJourney",
-
-    /**
-     * @modelType safetensors
-     */
-    MEINA_PASTEL = "MeinaPastel",
-
-    /**
-     * @modelType ckpt
-     */
-    MEINA_UNREAL = "MeinaUnreal",
-
-    /**
-     * @modelType safetensors
-     */
-    ABSOLUTE_REALITY = "AbsoluteReality",
-    
-    /**
-     * @modelType safetensors
-     */
-    BRA_V5 = "BraV5",
-
-    /**
-     * @modelType ckpt
-     */
-    DREAM_SHAPER_V7 = "DreamShaperV7",
-
-    /**
-     * @modelType ckpt
-     */
-    ICBINP = "ICBINP",
-
-    /**
-     * @modelType safetensors
-     */
-    LYRIEL = "Lyriel",
-
-    /**
-     * @modelType safetensors
-     */
-    MAJIC_MIX = "MajicMix",
-
-    /**
-     * @modelType safetensors
-     */
-    XXMIX = "Xxmix",
-
-    /**
-     * @modelType safetensors
-     */
-    TOON_YOU_V5 = "ToonYouV5",
-
-    /**
-     * @modelType safetensors
-     */
-    NIJI_JOURNEY = "NijiJourney",
-
-    /**
-     * @modelType safetensors
-     */
-    SDXL = "SDXL",
-}
 
 /**
  * The type of Stable Diffusion sampler
  */
 export enum Sampler {
-    DDIM = "ddim",
-    DDPM = "ddpm",
-    EULER = "euler",
-    EULERA = "eulera",
-    KDPM2 = "kdpm2",
-    DPM_SDE = "dpm_sde",
-    DPMM = "dpmm"
+    DDIMScheduler = 1,
+    DDPMScheduler = 2,
+    PNDMScheduler = 3,
+    LMSDiscreteScheduler = 4,
+    EulerDiscreteScheduler = 5,
+    HeunDiscreteScheduler = 6,
+    EulerAncestralDiscreteScheduler = 7,
+    DPMSolverMultistepScheduler = 8,
+    DPMSolverSinglestepScheduler = 9,
+    KDPM2DiscreteScheduler = 10,
+    KDPM2AncestralDiscreteScheduler = 11,
+    DEISMultistepScheduler = 12,
+    UniPCMultistepScheduler = 13,
+    DPMSolverSDEScheduler = 14
 }
 
 /**
@@ -133,6 +40,6 @@ export enum AspectRatio {
 }
 
 export enum JobStatus {
-    ERROR = `error`,
-    SUCCEEDED = `succeeded`,
+    ERROR = `ERROR`,
+    SUCCEEDED = `SUCCEEDED`,
 }
