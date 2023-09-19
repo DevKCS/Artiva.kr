@@ -5,11 +5,12 @@ export interface UpscaleResponse {
      * The current status of the job that has been upscale
      */
     status: JobStatus,
+    data: {
+        id: string
+    }
 }
 
 
 export enum UpscaleType {
-    ESRGAN = "esrgan",
-    ESRGAN_ANIME = "esrgan-anime",
-    GFPGAN = "gfpgan"
+    
 }
